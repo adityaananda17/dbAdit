@@ -10,7 +10,7 @@ st.title('Aplikasi Dashboard Interaktif Peminjaman Sepeda')
 # Muat data
 @st.cache_data
 def load_data():
-    df_day = pd.read_csv('day.csv')
+    df_day = pd.read_csv('dashboard/day.csv')
     return df_day
 
 df_day = load_data()
